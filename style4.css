@@ -1,0 +1,109 @@
+*{
+    padding:3;
+    margin:3;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+nav{
+    width: 100% ;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background:  rgb(210, 112, 71);
+    border-bottom: 1px solid rgb(23, 12, 12) ;
+}
+
+.box {
+    border: 1px solid #000;
+    padding: 20px;
+    width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: rgb(212, 195, 182);
+    
+}
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: rgb(23, 12, 12);
+
+}
+
+.menu {
+    float: right;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+a.tbl-biru {
+    background: rgb(85, 54, 54);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+a.tbl-biru:hover{
+    background: rgb(142, 81, 91);
+    text-decoration: none;
+
+}
+
+body{
+    background-color:#dedede;
+    background-size:500px 450px ;
+    color:rgb(9, 7, 7);
+    
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0  ;
+    text-align: center;
+    width: 95%;
+    margin:40px;
+   
+    
+
+   
+}
